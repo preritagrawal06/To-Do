@@ -1,0 +1,188 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Quicksand', sans-serif;
+    background-color: #fffffe;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #eff0f3;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 600;
+    padding: 10px;
+}
+
+.navbar span{
+    font-size: 30px;
+    font-weight: 800;
+    background-color: #eff0f3;
+    color: #0d0d0d;
+}
+
+.navbar li{
+    list-style-type: none;
+    background-color: #eff0f3;
+}
+
+.navbar li a{
+    text-decoration: none;
+    background-color: #eff0f3;
+    color: #0d0d0d;
+    font-size: 20px;
+    padding: 15px;
+}
+
+.navbar button{
+    background-color: #eff0f3;
+    font-weight: bold;
+    padding: 5px;
+    font-size: 15px;
+}
+
+.navbar li a:hover{
+    color: black;
+    transition: 0.5s;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.task{
+    width: 50%;
+    margin: 20px;
+    padding: 15px;
+    background-color: #eff0f3;
+    color: #0d0d0d;
+    text-align: center;
+    font-family: 'Quicksand', sans-serif;
+    border-radius: 10px;
+}
+
+.task:hover{
+    box-shadow: 5px 5px 20px 3px #eff0f3;
+    cursor: pointer;
+}
+
+.task h3{
+    background-color: #eff0f3;
+    color: #0d0d0d;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.task p{
+    background-color: #eff0f3;
+    color: #0d0d0d;
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 5px;
+}
+
+.task form{
+    background-color: #eff0f3;
+}
+
+.btn{
+    background-color: #eff0f3;
+    color: #0d0d0d;
+    margin-top: 10px;
+    padding: 5px;
+    font-weight: 800;
+}
+
+.new{
+    width: 100vw;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.todo-form{
+    background-color: #eff0f3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 20px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.todo-form button{
+    background-color: #eff0f3;
+    padding: 3px;
+    font-size: 15px;
+}
+
+.form-control{
+    background-color: #eff0f3;
+    display: flex;
+    margin: 20px;
+}
+
+.form-control label{
+    background-color: #eff0f3;
+    margin: 5px;
+}
+
+.form-control input, textarea{
+    background-color: #eff0f3;
+    margin: 5px;
+    padding: 5px;
+    font-size: 15px;
+}
+
+.login{
+    width: 100vw;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login form{
+    padding: 20px;
+    background-color: #eff0f3;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.login label{
+    background-color: #eff0f3;
+    margin: 5px;
+    font-size: 20px;
+}
+
+.login input{
+    background-color: #eff0f3;
+    margin: 5px;
+    padding: 5px;
+    font-size: 20px;
+}
+
+.login button{
+    background-color: #eff0f3;
+    margin: 5px;
+    padding: 5px;
+    font-size: 20px;
+}
+
+.login p, p a{
+    background-color: #eff0f3;
+    margin: 5px;
+    padding: 5px;
+    font-size: 20px;
+}
