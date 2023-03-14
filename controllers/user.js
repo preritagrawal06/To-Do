@@ -32,9 +32,10 @@ exports.postLogin = async (req, res, next)=>{
 
         req.session.user = user;
 
-        res.redirect('/home')
+        res.redirect('/')
 
     } catch(error){
+        console.log(error);
         res.redirect('/login')
     }
 }

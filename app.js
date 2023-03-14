@@ -36,6 +36,7 @@ mongoose
     .connect(MONGODB_URI)
     .then(()=>{
         app.listen(process.env.PORT);
+        console.log("connected to DB");
     })
     .catch(err=>{
         console.log(err);

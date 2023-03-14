@@ -27,7 +27,7 @@ exports.postAddTask = (req, res, next)=>{
     task
         .save()
         .then(() => {
-            res.redirect('/home');
+            res.redirect('/');
         })
         .catch(err => console.log(err));
 }
@@ -36,7 +36,7 @@ exports.postDeleteTask = (req, res, next)=>{
     const taskId = req.body.taskId;
     Task.findByIdAndRemove(taskId)
         .then(()=>{
-            res.redirect('/home');
+            res.redirect('/');
         })
         .catch(err=> console.log(err));
 }
